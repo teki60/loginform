@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fed9b7;
+}
+
+.total{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    width: 100%;
+    height: 25%;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f07167;
+}
+
+.bot{
+    height: 75%;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+.id{
+    width: 100%;
+    height: 65%;
+    /* border: 0.5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.name{
+    display: flex;
+    align-items: center; 
+    width: 100%; 
+    height: 25%;
+    /* border: 0.5px solid black; */
+}
+
+.image{
+    width: 40px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #f07167;
+}
+
+.inp{
+    width: 85%;
+    height: 95%;
+    /* margin-top: -3px; */
+    padding: 0;
+    border: 1px solid gray;
+    border-left: 1px solid #f07167;
+    border-radius: 0px 3px 3px 0px;
+}
+
+input{
+    /* width: auto; */
+    width: 95%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 100%;
+    padding-left: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.login{
+    width: 100%;
+    height: 15%;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    background-color: #f07167;
+    border: none;
+    font-size: 23px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #db4338;
+}
+
+.sup{
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center; 
+}
